@@ -29,8 +29,9 @@ Movie.init({
   },
   // The average rating of the movie
   avg_rating: {
-    type: DataTypes.DECIMAL, // data type is decimal
-    allowNull: false, // must have a value
+    type: DataTypes.DECIMAL(10,1), // data type is decimal
+    allowNull: false,
+    defaultValue: 0.0, // must have a value
   },
   // The year the movie was released
   release_year: {
@@ -51,7 +52,8 @@ Movie.init({
   description: {
     type: DataTypes.TEXT, // data type is text
     allowNull: false, // must have a value
-  },
+  }},
+  {
   // Connect the Movie model to the database using the sequelize object
   sequelize,
   // Disable timestamps for the model
