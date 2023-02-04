@@ -1,0 +1,84 @@
+[
+    {
+     "title": "The Shawshank Redemption",
+     "average_rating": 9.2,
+     "release_year": 1994,
+     "director": "Frank Darabont",
+     "length_in_minutes": 142,
+     "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+    },
+    {
+     "title": "The Godfather",
+     "average_rating": 9.2,
+     "release_year": 1972,
+     "director": "Francis Ford Coppola",
+     "length_in_minutes": 175,
+     "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
+    },
+    {
+     "title": "The Dark Knight",
+     "average_rating": 9.0,
+     "release_year": 2008,
+     "director": "Christopher Nolan",
+     "length_in_minutes": 152,
+     "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice."
+    },
+    {
+     "title": "The Godfather: Part II",
+     "average_rating": 9.0,
+     "release_year": 1974,
+     "director": "Francis Ford Coppola",
+     "length_in_minutes": 202,
+     "description": "The early life and career of Vito Corleone in 1920s New York is portrayed while his son, Michael, expands and tightens his grip on his crime syndicate stretching from Lake Tahoe, Nevada to pre-revolution 1958 Cuba."
+    },
+    {
+     "title": "Pulp Fiction",
+     "average_rating": 8.9,
+     "release_year": 1994,
+     "director": "Quentin Tarantino",
+     "length_in_minutes": 154,
+     "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
+    },
+    {
+     "title": "Schindler's List",
+     "average_rating": 8.9,
+     "release_year": 1993,
+     "director": "Steven Spielberg",
+     "length_in_minutes": 195,
+     "description": "In Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis."
+    },
+    {
+     "title": "The Lord of the Rings: The Return of the King",
+     "average_rating": 9.0,
+     "release_year": 2003,
+     "director": "Peter Jackson",
+     "length_in_minutes": 201,
+     "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
+    },
+    {
+     "title": "The Good, the Bad and the Ugly",
+     "average_rating": 8.8,
+     "release_year": 1966,
+     "director": "Sergio Leone",
+     "length_in_minutes": 178,
+     "description": "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery."  
+    }
+    {
+     "title": "Interstellar",
+     "average_rating": 8.6,
+     "release_year": 2014,
+     "director": "Christopher Nolan",
+     "length_in_minutes": 169,
+     "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."  
+    },
+    {
+     "title": "Parasite",
+     "average_rating": 8.5,
+     "release_year": 2019,
+     "director": "Bong Joon Ho",
+     "length_in_minutes": 132,
+     "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan."  
+    }
+
+]
+  
