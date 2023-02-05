@@ -43,7 +43,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Use the custom routes module
-// app.use(routes);
+app.use(routes);
 
 // Sync the database and start the Express.js app
 sequelize.sync({ force: false }).then(() => {

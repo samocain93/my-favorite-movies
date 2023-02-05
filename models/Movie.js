@@ -52,7 +52,15 @@ Movie.init({
   description: {
     type: DataTypes.TEXT, // data type is text
     allowNull: false, // must have a value
-  }},
+  },
+    user_id: {
+        type: DataTypes.INTEGER,
+        references: {
+            model: 'user',
+            key: 'id',
+        }
+    }
+},
   {
   // Connect the Movie model to the database using the sequelize object
   sequelize,
