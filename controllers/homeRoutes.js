@@ -47,26 +47,16 @@
 
 const express = require('express');
 const router = express.Router();
-const { Movie, User } = require('../models');
+const { Movie } = require('../models/Movie');
+const path = require('path');
 // const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
-    try {
-      const movieData = await Movie.findAll({
-        include: [{ model: User}],
-        exclude: ['password'],
-      });
-      const movies = movieData.map((movie) => movie.get({ plain: true }));
-      console.log(movieData);
-      res.render('homepage', {
-        movies,
-        // logged_in: req.session.logged_in,
-      });
-    } catch (err) {
-      console.log(err);
-      res.status(500).json(err);
-    }
-  });
+  res.sendFile(path.join(__dirname, '../index.html'))
+})
+
+
+
 
 
 

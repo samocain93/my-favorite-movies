@@ -1,0 +1,12 @@
+<div class="movie-container">
+    {{#each movies as |movie|}}
+    <div class="bg-white rounded-lg shadow-md p-6 movie-card">
+        <h2 class="font-bold text-lg mb-2">Movie Title: {{movie.title}}</h2>
+    <div class="text-gray-600 mb-2">Average Rating: {{movie.avg_rating}}</div>
+    <div class="text-gray-600 mb-2">Release Year: {{movie.release_year}}</div>
+    <div class="text-gray-600 mb-2">Director: {{movie.director}}</div>
+    <div class="text-gray-600 mb-2">Length: {{movie.length}}</div>
+        <p class="text-gray-600 mb-2">{{movie.description}}</p>
+    </div>
+    {{/each}}
+</div>
