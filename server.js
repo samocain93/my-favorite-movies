@@ -29,8 +29,10 @@ const sess = {
 // Tells the app to use the session
 app.use(session(sess));
 
+const hbs = exphbs.create({});
+
 // Set the view engine to handlebars
-app.engine('handlebars', exphbs.engine);
+app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
 // Parse JSON requests

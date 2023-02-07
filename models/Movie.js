@@ -71,7 +71,7 @@ Movie.init({
   // Use underscores for table/column names
   underscored: true,
   // Set the name of the model to 'movies'
-  modelName: 'movies',
+  modelName: 'movie',
 });
 
 // Export the Movie model for use in other parts of the application
